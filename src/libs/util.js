@@ -1,5 +1,4 @@
 /* eslint-disable import/prefer-default-export */
-import qs from 'querystring';
 import moment from 'moment';
 import 'moment/locale/zh-cn';
 
@@ -27,17 +26,6 @@ export const parseQuery = (str) =>
       memo[key] = value;
       return memo;
     }, {});
-
-// Append any query string url to api requests, to make passport work
-export const appendPassportParams = (url) => {
-  const [pathname, query = ''] = url.split('?');
-  const oldParams = parseQuery(query);
-  const extraParams = parseQuery(window.location.search);
-
-  // eslint-disable-next-line prefer-object-spread
-  const params = Object.assign({}, oldParams, extraParams);
-  return `${pathname}?${qs.stringify(params)}`;
-};
 
 export const domainStatusMap = {
   added: 'primary',

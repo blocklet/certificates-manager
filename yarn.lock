@@ -39,17 +39,6 @@
     winston "^3.3.3"
     winston-daily-rotate-file "^4.5.0"
 
-"@abtnode/passport@1.1.10-beta.1":
-  version "1.1.10-beta.1"
-  resolved "https://registry.yarnpkg.com/@abtnode/passport/-/passport-1.1.10-beta.1.tgz#b00ccbfc011ca88d6bad38b7dbaf69b4deaaf384"
-  integrity sha512-qMyuj5SGYa6GHM9A+Zco+BJCBt3qt30vpAYNFlVLrtomQ43R5oW3M/dKQXNOvbexWyhKxX3/i8iwZc4ieNAUoA==
-  dependencies:
-    "@arcblock/forge-util" "^1.5.5"
-    "@arcblock/forge-wallet" "^1.5.5"
-    "@arcblock/mcrypto" "^1.5.5"
-    axios "^0.21.1"
-    lodash "^4.17.11"
-
 "@abtnode/queue@^1.1.9":
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/@abtnode/queue/-/queue-1.1.9.tgz#b904657f98029df2f9f814b40f800739b7c6df43"
@@ -108,7 +97,7 @@
     number-to-bn "^1.7.0"
     utf8 "^3.0.0"
 
-"@arcblock/forge-wallet@^1.5.1", "@arcblock/forge-wallet@^1.5.5":
+"@arcblock/forge-wallet@^1.5.1":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@arcblock/forge-wallet/-/forge-wallet-1.5.5.tgz#eec85f21eff3f4dbd51902b65df4d18cab0bc719"
   integrity sha512-UV/jHaeDG24QDTdOu6oiTnkQVuHxTNqddD1fZoEPgzJOcREphwj1GgWqIxZBzWbi+82/a2tkOVAwsITpR2owzQ==

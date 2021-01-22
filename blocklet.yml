@@ -1,7 +1,7 @@
 name: certificates-manager
 title: Certificates Manager
 description: Manage ABT Node SSL certificates
-version: 0.1.23
+version: 0.2.0
 keywords:
   - dapp
   - ssl
@@ -76,6 +76,10 @@ interfaces:
     prefix: '*'
     port: BLOCKLET_PORT
     protocol: tcp
+    services:
+      - name: '@abtnode/auth-service'
+        config:
+          invitedUserOnly: not-first
   - type: web
     name: wellknownUrl
     path: /
@@ -92,6 +96,6 @@ interfaces:
     prefix: '*'
 screenshots: []
 requirements:
-  abtnode: '>=1.1.10'
+  abtnode: '>=1.1.17'
 timeout:
   start: 60

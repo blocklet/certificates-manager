@@ -1,3 +1,7 @@
+## 0.2.0 (January 22, 2021)
+
+- migrate auth from @abtnode/passport to @abtnode/auth-service
+
 ## 0.1.23 (January 15, 2021)
 
 - [skip ci] Update README.md
